@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Paradigms.iml" filepath="$PROJECT_DIR$/Paradigms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semi1/Semi1.iml" filepath="$PROJECT_DIR$/Semi1/Semi1.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semi1_DZ1/Semi1_DZ1.iml" filepath="$PROJECT_DIR$/Semi1_DZ1/Semi1_DZ1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semi2/Semi2.iml" filepath="$PROJECT_DIR$/Semi2/Semi2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semi2_DZ2/Semi2_DZ2.iml" filepath="$PROJECT_DIR$/Semi2_DZ2/Semi2_DZ2.iml" />
     </modules>
   </component>
 </project>
