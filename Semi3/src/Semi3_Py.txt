@@ -1,0 +1,116 @@
+
+
+class Shape:
+    def __init__(self):
+        raise TypeError("Creating instance of abstract class")
+
+    def get_area(self):
+        raise TypeError("Calling abstract method")
+
+    def get_perimeter(self):
+        raise TypeError("Calling abstract method")
+
+
+a = Shape()
+
+-----------------------------
+
+class Shape:
+    def __init__(self):
+        raise TypeError("Creating instance of abstract class")
+
+    def get_area(self):
+        raise TypeError("Calling abstract method")
+
+    def get_perimeter(self):
+        raise TypeError("Calling abstract method")
+
+
+class Circle(Shape):
+    def __init__(self, r):
+        self._r = int(r)
+
+    def get_area(self):
+        return 3.14 * self._r ** 2
+
+    def get_perimeter(self):
+        return 2 * 3.14 * self._r
+
+
+class Square(Shape):
+    def __init__(self, r):
+        self.__r = int(r)
+
+    def get_area(self):
+        return self.__r * self.__r
+
+    def get_perimeter(self):
+        return 4 * self.__r
+
+
+def get_area(obj: Shape):
+    return obj.get_area()
+
+
+circul_1 = Circle(3)
+circul_2 = Square(3)
+# print('Площадь: ', circul1.get_area())
+# print('Периметр: ', circul1.get_perimeter())
+
+print(get_area(circul_1))
+print(get_area(circul_2))
+
+print(circul_2._Square__r)
+
+----------------------------------------
+
+class A:
+    __m = 55
+
+    @property
+    def m(self):
+        return self.__m
+
+    @m.setter
+    def m(self, value):
+        if isinstance(value, int) and value > 0:
+            self.__m = value
+        else:
+            self.__m = value
+
+    @m.getter
+    def m(self):
+        return self.__m1
+
+
+a = A()
+
+a.m = 13
+
+print(a.m)
+--------------------------
+class Triangle(Shape):
+    def __init__(self, s1, s2, s3):
+        self.s1 = s1
+        self.s2 = s2
+        self.s3 = s3
+
+    def get_perimeter(self, s1=None, s2=None, s3=None):
+        s1_ = s1 or self.s1
+        s2_ = s2 or self.s2
+        s3_ = s3 or self.s3
+
+        return s1_ + s2_ + s3_
+
+    def get_area(self, s1=None, s2=None, s3=None):
+        s1 = s1 or self.s1
+        s2 = s2 or self.s2
+        s3 = s3 or self.s3
+        p = (s1 + s2 + s3) / 2
+        return (p * (p - s1) * (p - s2) * (p - s3)) ** 0.5  # теорема Герона
+
+
+tri = Triangle(2, 3, 4)
+print('Периметр треугольника: ', tri.get_perimeter(2, 3, 4))
+print('Площадь треугольника: ', tri.get_area(2, 3, 4))
+
