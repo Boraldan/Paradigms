@@ -1,8 +1,8 @@
+package Domen;
+
 import java.util.Scanner;
 
 public class FieldGame {
-    //    public char x = 'X';
-//    public char O = 'O';
     public char[] fieldStart = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
     public char[] fieldGame = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
 

@@ -1,9 +1,8 @@
-public class Player {
-    public char fishka;
-    public String name;
+package Domen;
 
-    public Player() {
-    }
+public class Player {
+    public String name;
+    public char fishka;
 
     public Player(String name, char fishka) {
         this.name = name;
