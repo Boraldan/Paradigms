@@ -2,8 +2,6 @@ package UseCase;
 
 public class LogicIi {
 
-//    public Domen.Ii ii;
-
     public int moveIi(char[] fieldGame, int step) {
         System.out.println("Ход игрока Ii " + " --> ");
         // первые 3 хода
@@ -15,7 +13,6 @@ public class LogicIi {
         }
 
         if (step > 3) {
-
             // -------- ищем место для третьего нолика  ---------------
             // проверка строк
             for (int i = 0; i < 9; i = i + 3) {
@@ -48,7 +45,6 @@ public class LogicIi {
             }
 
             // проверка диагоналей
-
             StringBuilder builder3 = new StringBuilder();
             StringBuilder builder31 = new StringBuilder();
             for (int i = 0; i < 9; i = i + 4) {
@@ -184,6 +180,5 @@ public class LogicIi {
         }
         return -1;
     }
-
 }
 
