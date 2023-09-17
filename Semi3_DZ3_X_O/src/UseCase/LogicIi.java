@@ -3,7 +3,7 @@ package UseCase;
 public class LogicIi {
 
     public int moveIi(char[] fieldGame, int step) {
-        System.out.println("Ход игрока Ii " + " --> ");
+        System.out.println("Ход игрока Ii  --> ");
         // первые 3 хода
         if (step <= 3) {
             if (fieldGame[4] == ' ') return 4;

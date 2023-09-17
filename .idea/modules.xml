@@ -8,7 +8,10 @@
       <module fileurl="file://$PROJECT_DIR$/Semi2/Semi2.iml" filepath="$PROJECT_DIR$/Semi2/Semi2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semi2_DZ2/Semi2_DZ2.iml" filepath="$PROJECT_DIR$/Semi2_DZ2/Semi2_DZ2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semi3/Semi3.iml" filepath="$PROJECT_DIR$/Semi3/Semi3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semi3_DZ3_EM/Semi3_DZ3_EM.iml" filepath="$PROJECT_DIR$/Semi3_DZ3_EM/Semi3_DZ3_EM.iml" />
       <module fileurl="file://$PROJECT_DIR$/Semi3_DZ3_X_O/Semi3_DZ3_X_O.iml" filepath="$PROJECT_DIR$/Semi3_DZ3_X_O/Semi3_DZ3_X_O.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semi4/Semi4.iml" filepath="$PROJECT_DIR$/Semi4/Semi4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Semi4_DZ4/Semi4_DZ4.iml" filepath="$PROJECT_DIR$/Semi4_DZ4/Semi4_DZ4.iml" />
     </modules>
   </component>
 </project>
