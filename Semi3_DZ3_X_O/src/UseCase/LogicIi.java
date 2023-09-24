@@ -9,7 +9,6 @@ public class LogicIi {
             if (fieldGame[4] == ' ') return 4;
             if (fieldGame[0] == ' ') return 0;
             if (fieldGame[2] == ' ') return 2;
-            if (fieldGame[6] == ' ') return 6;
         }
 
         if (step > 3) {
